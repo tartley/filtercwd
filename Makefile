@@ -1,3 +1,4 @@
 install:
-	cp filtercwd.py ~/docs/bin
+	chmod 755 filtercwd.py
+	cp -p filtercwd.py ~/docs/bin
 
